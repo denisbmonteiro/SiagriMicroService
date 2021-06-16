@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiagriMicroService", "SiagriMicroService\SiagriMicroService.csproj", "{C39515F3-2358-4B99-8844-91EE941D23CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiagriMicroService", "SiagriMicroService\SiagriMicroService.csproj", "{CEF6CCD3-700F-4C7F-8826-EEA61138AD87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C39515F3-2358-4B99-8844-91EE941D23CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C39515F3-2358-4B99-8844-91EE941D23CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C39515F3-2358-4B99-8844-91EE941D23CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C39515F3-2358-4B99-8844-91EE941D23CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEF6CCD3-700F-4C7F-8826-EEA61138AD87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF6CCD3-700F-4C7F-8826-EEA61138AD87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF6CCD3-700F-4C7F-8826-EEA61138AD87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF6CCD3-700F-4C7F-8826-EEA61138AD87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4DBB644D-3857-4FD3-9FD8-3440B74E02ED}
+		SolutionGuid = {48BD588F-BE66-45AF-BEE7-D095205D46C5}
 	EndGlobalSection
 EndGlobal
