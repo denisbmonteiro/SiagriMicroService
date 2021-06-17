@@ -3,6 +3,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using SiagriMicroService.Models;
+using SiagriMicroService.Data;
 
 namespace SiagriMicroService.Services
 {
@@ -12,7 +13,7 @@ namespace SiagriMicroService.Services
         private static string PARAM_LATITUDE = "lat=";
         private static string PARAM_LONGITUDE = "lon=";
         private static string PARAM_UNITS = "units=metric";
-        private static string PARAM_APPID = "appid=0eaa098ae833fae2862d8a2244f8e8a3";
+        private static string PARAM_APPID = "appid=" + Tokens.OpenWeatherApi;
 
         public static async Task<OpenWeatherMapReponse> GetWeatherAsync(double lat, double lon)
         {
